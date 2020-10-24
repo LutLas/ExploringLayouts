@@ -1,5 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">ExploringLayouts</string>
     <string name="mainMenu">Menu</string>
     <string name="multiText">Select a layout type to view an example. The onClick attribute of each button will call a function which executes setContentView to load the new layout</string>
     <string name="multiTextLabel">Menu\'s Option</string>
