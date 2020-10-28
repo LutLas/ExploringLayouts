@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:orientation="vertical"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:orientation="vertical">
 
     <TextView
         android:id="@+id/mainMenu"
@@ -17,31 +17,36 @@
         android:id="@+id/editTextMultiLine"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="100sp"
+        android:autofillHints=""
         android:ems="10"
         android:gravity="start|top"
         android:inputType="textMultiLine"
-        android:autofillHints=""
         android:labelFor="@string/multiTextLabel"
+        android:padding="15sp"
         android:text="@string/multiText"
         tools:ignore="LabelFor" />
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal" >
+        android:orientation="horizontal">
 
         <TextView
             android:id="@+id/textView2"
-            android:layout_width="0dp"
+            android:layout_width="0sp"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="@string/textViewLinear2" />
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:layout_weight=".7"
+            android:text="@string/textViewLinear2"
+            android:textSize="20sp" />
 
         <Button
             android:id="@+id/button"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
+            android:layout_weight=".3"
+            android:onClick="loadConstraintLayout"
             android:text="@string/buttonText" />
 
     </LinearLayout>
@@ -53,16 +58,19 @@
 
         <TextView
             android:id="@+id/textView3"
-            android:layout_width="0dp"
+            android:layout_width="0sp"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="@string/textViewLinear3" />
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:layout_weight=".7"
+            android:text="@string/textViewLinear3"
+            android:textSize="20sp" />
 
         <Button
             android:id="@+id/button2"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
+            android:layout_weight=".3"
+            android:onClick="loadTableLayout"
             android:text="@string/buttonText" />
 
     </LinearLayout>
@@ -70,5 +78,8 @@
     <RatingBar
         android:id="@+id/ratingBar"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15sp"
+        android:layout_marginTop="75sp"
+        android:layout_marginRight="15sp" />
 </LinearLayout>

@@ -6,4 +6,13 @@
     <string name="buttonText">LOAD</string>
     <string name="textViewLinear2">Load ConstraintLayout</string>
     <string name="textViewLinear3">Load TableLayout</string>
+    <string name="textview1t1">India</string>
+    <string name="textview2t1">England</string>
+    <string name="textview1t2">Zambia</string>
+    <string name="textview2t2">Zimbabwe</string>
+    <string name="textview3t2">Namibia</string>
+    <string name="textview1t3">Angola</string>
+    <string name="textview2t3">Mozambique</string>
+    <string name="textview3t3">Malawi</string>
+    <string name="buttont4">Back</string>
 </resources>
